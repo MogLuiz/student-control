@@ -1,9 +1,16 @@
 import React from 'react'
 
+import { Container } from '../../styles/GlobalStyles'
+import { Title } from './styled'
+
 export default function Login() {
   return (
-    <h1>
-      Login
-    </h1>
+    <Container>
+      <Title isRed={false}>
+        Login
+        <small>Hello world</small>
+      </Title>
+      <p>Lorem ipsum</p>
+    </Container>
   )
 }
