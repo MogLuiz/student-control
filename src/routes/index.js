@@ -8,7 +8,8 @@ import Page404 from '../pages/Page404'
 
 export default function Routes() {
 
-  toast.success('Olá, toasty');
+  toast.success('Olá!');
+  toast.error('Olá, toasty');
 
   return (
       <Switch>
